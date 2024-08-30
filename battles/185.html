@@ -1,0 +1,112 @@
+<div class="frame">
+  <div class="a c o">
+    <div class="r">
+      <div class="a o r"></div>
+    </div>
+    <div class="b">
+      <div class="a o b"></div>
+    </div>
+  </div>
+  <div class="a row northeast">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </div>
+  <div class="a row reverse northwest">
+    <div>
+      <div class="line half"></div>
+      <div class="line half"></div>
+    </div>
+    <div class="line"></div>
+    <div>
+      <div class="line half"></div>
+      <div class="line half"></div>
+    </div>
+  </div>
+  <div class="a row southwest">
+    <div>
+      <div class="line half"></div>
+      <div class="line half"></div>
+    </div>
+    <div>
+      <div class="line half"></div>
+      <div class="line half"></div>
+    </div><div>
+      <div class="line half"></div>
+      <div class="line half"></div>
+    </div>
+  </div>
+  <div class="a row reverse southeast">
+    <div class="line"></div>
+    <div>
+      <div class="line half"></div>
+      <div class="line half"></div>
+    </div>
+    <div class="line"></div>
+  </div>
+  <style>
+    .a{position:absolute}
+    .o{border-radius:50%}
+    .c {
+      width: 120px;
+      height: 120px;
+      overflow: hidden;
+      left:140px;
+      top:90px;
+      div {
+        height:60px;
+        width:120px;
+        div {
+          width:60px;
+          height:60px;
+        }
+      }
+      .r {
+        .o {top:30px}
+        background: #CD2E3A
+      }
+      .b {
+        .o {top:30px; left:60px;}
+        background: #0047A0
+      }
+    }
+    .row {
+      display: flex;
+      rotate:30deg;
+    }
+    .reverse {rotate: -30deg}
+    .northeast {
+      left:79px;
+      top:64px;
+    }
+    .southwest {
+      left:266px;
+      top:173px;
+    }
+    .line {
+      height:60px;
+      width: 10px;
+      background: #000;
+      margin-left:6px;
+    }
+    .half {
+      height:27px;
+      margin-bottom:6px;
+    }
+    .northwest {
+      top:67px;
+      left:270px;
+    }
+    .southeast{
+      top:176px;
+      left:80px;
+    }
+  </style>
+  </div>
+  
+  <!-- minified
+  
+  
+  
+  -->
+  
