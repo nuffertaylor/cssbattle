@@ -1,0 +1,31 @@
+<div class="triangle"></div>
+<div class="stripe"></div>
+<style>
+*{background: #40234B}
+  .triangle {
+     width: 0;
+     border-style: solid;
+     border-width: 200px 115px 0 115px;
+     border-color: #A94EA4 transparent;
+     transform: rotate(0deg);
+     margin-top:50px;
+     margin-left:77px;
+  }
+  .stripe {
+    position: absolute;
+    top: 50;
+    left:68px;
+    width: 400px;
+    height: 200px;
+    background: repeating-linear-gradient(
+    -60deg,
+    transparent,
+    transparent 16px,
+    #40234B 16px,
+    #40234B 28px
+  );
+  }
+  /*
+  only 92%... but I just don't want to mess with the "repeating-linear-gradient" anymore, way too annoying to try and get it right
+  */
+</style>
