@@ -1,0 +1,65 @@
+<div class="frame">
+  <div class="a head">
+    <div class="a cheek"></div>
+    <div class="a cheek right-cheek"></div>
+  </div>
+  <div class="a scalp"></div>
+  <div class="a eye"></div>
+  <div class="a eye right-eye"></div>
+  <div class="a mouth"></div>
+  <style>
+    *{background:#BB2726}
+    .a{position:absolute; z-index: 2;}
+    .head {
+      width: 216px;
+      height: 285px;
+      background: #F3AC3C;
+      top:0;
+      left: 92px;
+      z-index: 1;
+      overflow: hidden;
+    }
+    .scalp {
+      width:80px;
+      height:100px;
+      top: -68px;
+      left: 127px;
+      border: solid 33px #F3AC3C;
+      border-bottom: solid 57px #F3AC3C;
+      box-shadow: 0 0 0 10px #BB2726;
+    }
+    .eye {
+      width: 45px;
+      height: 10px;
+      background: #fff;
+      top: 132px;
+      left: 127px;
+      box-shadow: 0 0 0 10px #BB2726;
+    }
+    .right-eye {
+      left: 228px;
+    }
+    .mouth {
+      width: 96px;
+      height: 37px;
+      background: #F3AC3C;
+      bottom: 15px;
+      left: 152px;
+      outline: 10px solid #BB2726;
+    }
+    /* Currently a 99.9% match, the cheeks aren't quite right */
+    .cheek {
+      width: 120px;
+      height: 200px;
+      border: 10px solid blue;
+      border-radius: 50%;
+      top: 166px;
+      left: -77px;
+      background: #F3AC3C;
+      border-color: #BB2726;
+    }
+    .right-cheek{
+      left:153px;
+    }
+  </style>
+</div>
