@@ -1,0 +1,57 @@
+<div class="vertical green a z"></div>
+<div class="vertical green b z"></div>
+<div class="horizontal green c a"></div>
+<div class="horizontal green d"></div>
+<div class="vertical yellow e"></div>
+<div class="vertical yellow f"></div>
+<div class="vertical yellow g"></div>
+<div class="horizontal yellow e h"></div>
+<body bgcolor=#1A4341>
+<style>
+  div { position: absolute }
+  .vertical {
+    width: 30px;
+    height: 200px;
+        top: 0;
+
+  }
+  .horizontal {
+    height: 30px;
+    width: 270px;
+  }
+  .yellow {
+    background:#F3AC3C;
+  }
+  .green {
+    background:#998235;
+  }
+    .z { top: -50px }
+  .a {
+    left: 125px;
+  }
+  .b {
+    left: 245px;
+  }
+  .c {
+    top:120px;
+    width: 120px;
+  }
+  .d {
+    top: 240px;
+    left: 65px;
+  }
+  .e {
+    left: 65px;
+  }
+  .f {
+    left: 305px;
+  }
+  .g {
+    left: 185px;
+    height: 400px;
+  }
+  .h {
+    top: 180px;
+  }
+  /*did not try to optimize this one, just got 100%. could be improved pretty easily with two bordered rectangles */
+</style>
