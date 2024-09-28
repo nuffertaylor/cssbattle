@@ -1,0 +1,40 @@
+<div class="tall a"></div>
+  <div class="short b">
+    <div class="short c">
+      <div class="tall d"></div>
+    </div>
+  </div>
+</div>
+<style>
+  *{background:#998235}
+  div {
+    position:absolute;
+    width: 80px;
+  }
+  .tall {
+    border-radius: 0 54%;
+    height: 100px;
+    background:#1A4341
+  }
+  .short {
+    border-radius: 0 71%;
+    background:#F3AC3C;
+    height: 60px;
+  }
+  .a {
+    top: 60px;
+    left: 110px;
+  }
+  .b {
+    top: 120px;
+  }
+  .c {
+    left: 100px;
+    top: -120px;
+    border-radius: 71% 0;
+  }
+  .d {
+    top: 80px;
+    border-radius: 56% 0;
+  }
+</style>
