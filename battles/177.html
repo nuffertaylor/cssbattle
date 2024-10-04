@@ -1,0 +1,112 @@
+<body bgcolor=#3C8D3F></body>
+<div class="nail">
+  <div></div>
+</div>
+<div class="nail right-nail">
+  <div></div>
+</div>
+<div class="head">
+  <div class="hair black">
+    <div class="strand s1">
+      <div class="strand s2">
+        <div class="strand s2">
+          <div class="strand s2">
+            <div class="strand s2"></div>
+          </div>  
+        </div> 
+      </div>
+    </div>
+  </div>
+  <div class="eye">
+    <div></div>
+  </div>
+  <div class="eye right-eye">
+    <div></div>
+  </div>
+  <div class="mouth">
+    <div></div>
+  </div>
+</div>
+<style>
+  div {position: absolute;}
+  .black, .eye, .nail{background: #1A1D2F}
+  .head {
+    width: 150px;
+    height: 150px;
+    border-radius: 9px 9px 50% 50%;
+    background: #14F078;
+    top: 75px;
+    left: 125px;
+    overflow: hidden;
+  }
+  .hair {
+    width: 150px;
+    height: 30px;
+  }
+  .strand {
+      width: 0px;
+      border-style: solid;
+      border-width: 15px 15px 0 15px;
+      border-color: transparent;
+    border-top-color: #1A1D2F;
+  }
+  .s1{
+    top: 30px;
+  }
+  .s2{
+    top: -15px;
+    left: 15px;
+  }
+  .eye {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    top: 70px;
+    left: 30px;
+    display: grid;
+    place-items: center;
+    div {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #fff;
+    }
+  }
+  .right-eye {
+    left: 90px;
+  }
+  .mouth {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    top: 90px;
+    overflow: hidden;
+    left: 55px;
+    div {
+      width: 40px;
+      height: 20px;
+      top: 20px;
+      background: #1A1D2F;
+    }
+  }
+  .nail {
+    width:20px;
+    height: 10px;
+    top: 155px;
+    left: 110px;
+    div {
+      width: 10px;
+      height: 30px;
+      background: #1A1D2F;
+      left: -10px;
+      top: -10px;
+      border-radius: 10px;
+    }
+  }
+  .right-nail {
+    left: 270px;
+    div {
+      left: 20px;
+    }
+  }
+</style>
