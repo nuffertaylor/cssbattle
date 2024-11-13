@@ -1,0 +1,44 @@
+<div a>
+  <div b>
+    <div c>
+      <div c d></div>
+    </div>
+  </div>
+</div>
+<style>
+  *{background: #37212D}
+  div {position: absolute;}
+  [a] {
+    width: 240px;
+    height: 120px;
+    background: linear-gradient(90deg,#76608A 50%,#EE9B99 50%);
+    top: 90px;
+    left: 80px;
+    overflow: hidden;
+  }
+  [b] {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background: linear-gradient(90deg,#EE9B99 50%,#BCE6E9 50%);
+  }
+  [c] {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    left: 60px;
+    background: linear-gradient(90deg,#EE9B99 50%,#76608A 50%);
+  }
+  [d] {
+    background: #BCE6E9;
+    left: -60px;
+    top: 60px;
+  }
+</style>
+
+<!-- minified (442 char)
+yeah it's giving me a 99.9% match, but the match is perfect. So I'm upset. 
+
+<div a><div b><div c><div c d><style>*{background:#37212d}div{position:absolute}[a]{width:240;height:120;background:linear-gradient(90deg,#76608a 50%,#ee9b99 50%);top:90;left:80;overflow:hidden}[b]{width:240;height:240;border-radius:50%;background:linear-gradient(90deg,#ee9b99 50%,#bce6e9 50%)}[c]{width:120;height:120;border-radius:50%;left:60;background:linear-gradient(90deg,#ee9b99 50%,#76608a 50%)}[d]{background:#bce6e9;left:-60;top:60
+
+-->
