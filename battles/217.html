@@ -1,0 +1,46 @@
+<div a></div>
+<div b></div>
+<div c></div>
+<div d></div>
+<div e></div>
+<style>
+  *{background: #202939}
+  div {
+    position: absolute;
+    width: 58px;
+    height: 43px;
+    transform: skewX(30deg);
+    rotate: 31deg;
+    background: #FFF;
+    left: 116px;
+    top: 73px;
+  }
+  [a], [e] {
+    background: #556787;
+  }
+  [b] {
+    top: 149px;
+    left: 151px;
+  }
+  [c] {
+    top: 129px;
+    left: 171px;
+  }
+  [d] {
+    top: 109px;
+    left: 191px;
+  }
+  [e] {
+    left: 226px;
+    top: 185px;
+  }
+</style>
+
+<!-- minified (306 char)
+dude this one is named "maze" when it's clearly a satellite. are these names randomly generated? 
+
+I could probably trim off two dozen chars from this solution by nesting the divs, but it becomes so much harder to place divs when they're rotated within each other, so I didn't bother
+
+<div a></div><div b></div><div c></div><div d></div><div e><style>*{background:#202939}div{position:absolute;width:58;height:43;transform:skewX(30deg);rotate:31deg;background:#fff;left:116;top:73}[a],[e]{background:#556787}[b]{top:149;left:151}[c]{top:129;left:171}[d]{top:109;left:191}[e]{left:226;top:185
+
+-->
