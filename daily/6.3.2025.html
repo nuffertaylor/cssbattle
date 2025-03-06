@@ -1,0 +1,39 @@
+<div a>
+  <div a b>
+    <div c>
+      <div d></div>
+    </div>
+  </div>
+</div>
+<style>
+  *{background:#DE6B67}
+  div {
+    position: absolute;
+    left: 0;
+    top: 0;
+        width: 30px;
+    height: 30px;
+  }
+  [a] {
+    border: solid #E8AD6D;
+    border-width: 0 20px 0 85px;
+    width: 40px;
+    height: 300px;
+  }
+  [b] {
+    border-width: 0 85px 0 20px;
+    left: 170px;
+  }
+  [c] {
+    left: -89px;
+    top: 85px;
+    rotate: 45deg;
+  }
+  [c],[d] {
+    background: #E8AD6D;
+  }
+  [d] {
+    top: 80px;
+    left: 80px;
+  }
+</style>
