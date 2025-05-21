@@ -1,0 +1,47 @@
+<div a>
+  <div b>
+    <div c>
+      <div b d></div>
+    </div>
+  </div>
+</div>
+<style>
+  *{background:#EDDF5A}
+  div {
+    width: 40px;
+    height: 40px;
+    outline: solid 40px #EDDF5A;
+    background: #C53025;
+    position: absolute;
+  }
+  [a],[b]
+{
+      height: 200px;
+}  
+  [a],[c] {
+    width: 400px
+  }
+  [a] {
+    left:0;
+    top: 50px;
+    
+  }
+  [b] {
+    left:180px
+  }
+  [c] {
+    top: 80px;
+    left: -180px;
+  }
+  [d] {
+    outline: 0;
+    top: -80px;
+  }
+  
+</style>
+
+<!-- minified (255 char)
+ 
+<div a><div b><div c><div b d><style>*{background:#EDDF5A}div{width:40;height:40;outline:solid 40px #EDDF5A;background:#C53025;position:absolute}[a],[b]{height:200}[a],[c]{width:400}[a]{left:0;top:50}[b]{left:180}[c]{top:80;left:-180}[d]{outline:0;top:-80
+
+-->
