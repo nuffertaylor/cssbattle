@@ -1,0 +1,48 @@
+<div a z>
+  <div b>
+    <div a y>
+      <div b c>
+        <div a x>
+          <div b></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+  *{background:#394257}
+  div {
+    background: #D24444;
+    position: absolute;
+  }
+  [a] {
+    width: 40px;
+    height: 120px;
+    [b] {
+      height: 40px;
+      width: 80px;
+      left: 40px;
+    }
+    [c] {
+      left: -80px;
+    }
+  }
+  [z] {
+       left: 80px; 
+    top: 20px;
+  }
+  [y] {
+    top: 80px;
+    left: 160px;
+  }
+  [x] {
+    left: -120px;
+    top: 80px;
+  }
+</style>
+
+<!-- minified (247 char)
+ 
+<div a z><div b><div a y><div b c><div a x><div b><style>*{background:#394257}div{background:#D24444;position:absolute}[a]{width:40;height:120;[b]{height:40;width:80;left:40}[c]{left:-80}}[z]{left:80;top:20}[y]{top:80;left:160}[x]{left:-120;top:80
+
+-->
