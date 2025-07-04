@@ -1,0 +1,39 @@
+<div a>
+  <div b>
+    <div c></div>
+  </div>
+</div>
+<style>
+  *,[a]{background:#5A9F48}
+  div {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: #d9d9d9;
+  }
+  [a] {
+    height: 115px;
+    outline: solid 60px #d9d9d9;
+    left: 125px;
+    top: 0;
+  }
+  [b] {
+    width: 110px;
+    left: 20px;
+    top: 175px;
+    outline: solid 20px #5A9F48;
+  }
+  [c] {
+    border-radius: 50%;
+    border: solid 60px #000;
+    top: -155px;
+    left: -80px;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 50%);
+  }
+</style>
+
+<!-- minified (336 char)
+ 
+<div a><div b><div c><style>*,[a]{background:#5A9F48}div{position:absolute;width:150;height:150;background:#d9d9d9}[a]{height:115;outline:solid 60px #d9d9d9;left:125;top:0}[b]{width:110;left:20;top:175;outline:solid 20px #5A9F48}[c]{border-radius:50%;border:solid 60px #000;top:-155;left:-80;clip-path:polygon(0 0,100% 0,100% 50%,0% 50%
+
+-->
