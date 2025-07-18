@@ -1,0 +1,55 @@
+<div a></div>
+<div b>
+  <div c></div>
+</div>
+<style>
+  *,[c]{background:#EFF2F1}
+  div {
+    background: #1C1C1C;
+    position: fixed;
+  }
+  [b] {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    left: 170px;
+    top: 60px;
+  }
+  [c] {
+    width: 50px;
+    height: 60px;
+    top: 75px;
+    border-radius: 0 30px 30px 0;
+  }
+  [a] {
+    left: 110px;
+    width: 180px;
+    height: 180px;
+    top: 60px;
+    clip-path: polygon(
+      0% 0%,
+      0% 5%,
+      20px 20px,
+      20px 160px,
+      0% 95%,
+      0% 100%,
+      80px 100%,
+      80px 95%,
+      60px 160px,
+      60px 50%,
+      70px 50%,
+      121px 100%,
+      100% 100%,
+      100% 174px,
+      154px 158px,
+      114px 86px,
+      109px 0%
+    );
+  }
+</style>
+
+<!-- minified (424 char)
+ 
+<div a></div><div b><div c><style>*,[c]{background:#EFF2F1}div{background:#1C1C1C;position:fixed}[b]{height:90;width:90;border-radius:50%;left:170;top:60}[c]{width:50;height:60;top:75;border-radius:0 30px 30px 0}[a]{left:110;width:180;height:180;top:60;clip-path:polygon(0 0,0 5%,20px 20px,20px 160px,0 95%,0 100%,80px 100%,80px 95%,60px 160px,60px 50%,70px 50%,121px 100%,100% 100%,100% 174px,154px 158px,114px 86px,109px 0
+
+-->
