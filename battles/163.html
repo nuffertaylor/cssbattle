@@ -1,0 +1,31 @@
+<div></div>
+<div a b></div>
+<div a c></div>
+<style>
+  *{background:#D669EC}
+  div {
+    width: 100px;
+    height: 100px;
+    background: #FDFBF8;
+    position: absolute;
+    top: 40px;
+    left: 90px;
+    clip-path: polygon(0 0, 57q 0, 100% 49q, 100% 100%, 49q 100%, 0 57q);
+  }
+  [a] {
+    rotate: 90deg;
+  }
+  [b] {
+    left: 210px;
+  }
+  [c] {
+    top: 160px;
+    
+  }
+</style>
+
+<!-- minified (244 char)
+ 
+<div></div><div a b></div><div a c><style>*{background:#D669EC}div{width:100;height:100;background:#FDFBF8;position:absolute;top:40;left:90;clip-path:polygon(0 0,57q 0,100% 49q,100% 100%,49q 100%,0 57q)}[a]{rotate:90deg}[b]{left:210}[c]{top:160
+
+->
