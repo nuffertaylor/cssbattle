@@ -1,3 +1,6 @@
+<!--
+attempt 1
+
 <div class="frame">
   <div class="a c"></div>
 <div class="a c m"></div>
@@ -37,4 +40,47 @@
     top:70px
   }
 </style>
+</div> -->
+
+<!-- attempt 2 - still not passing-->
+
+<div a>
+  <div o b>
+    <div c>
+      <div o>
+        <div d>
+          <div o></div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+<style>
+  &{background:#62306D}
+  div {
+    width: 100px;
+    height: 200px;
+    background: #F7EC7D;
+  }
+  [a] {
+    margin: 100px 142px;
+  }
+  [o] {
+    background: #E38F66;
+    outline: solid 22q #AA445F;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    transform: translate(21q, -32q);
+  }
+  [b] {
+    background: #AA445F;
+    outline-color: #E38F66;
+  }
+  [c] {
+    transform: translate(-127q, 138q);
+  }
+  [d] {
+    transform: translate(191q, 32q);
+  }
+</style>
