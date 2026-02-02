@@ -1,86 +1,52 @@
-<!--
-attempt 1
-
-<div class="frame">
-  <div class="a c"></div>
-<div class="a c m"></div>
-<div class="a c r"></div>
-<div class="a p"></div>
-<div class="a p z"></div>
-<div class="a p y"></div>
+<p a>
+  <p o e>
+    <p a b>
+      <p o b c>
+        <p a d>
+          <p o d e></p>
+        </p>
+      </p>
+    </p>
+  </p>
+</p>
 <style>
-  .frame{background:#62306D}
-  .a{position:absolute}
-  .c{
-    width:100px;
-    height:100%;
-    background:#F7EC7D;
-    left:50px;
-    top:200px;
-  }
-  .m{
-    left:150px;
-    top:100px;
-  }
-  .r{left:250px}
-  .p{
-    width:60px;
-    height:60px;
-    border-radius:50%;
-    background:#E38F66;
-    left:70px;
-    top:170px;
-    outline: solid 20px #AA445F;
-  }
-  .z{left:270px}
-  .y{
-    outline-color:#E38F66;
-    background:#AA445F;
-    left:170px;
-    top:70px
-  }
-</style>
-</div> -->
-
-<!-- attempt 2 - still not passing-->
-
-<div a>
-  <div o b>
-    <div c>
-      <div o>
-        <div d>
-          <div o></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<style>
-  &{background:#62306D}
-  div {
-    width: 100px;
-    height: 200px;
-    background: #F7EC7D;
-  }
+  *{background:#62306D;position:fixed}
   [a] {
-    margin: 100px 142px;
+    background:#F7EC7D;
+    width: 100px;
+    height: 250px;
+    left: 50px;
+    top: 200px;
   }
   [o] {
-    background: #E38F66;
-    outline: solid 22q #AA445F;
-    border-radius: 50%;
     width: 60px;
     height: 60px;
-    transform: translate(21q, -32q);
+    border-radius: 50%;
+    border: solid 20px #AA445F;
+    left: 100px;
+    background: #E38F66;
+    left:50px;
   }
   [b] {
-    background: #AA445F;
-    outline-color: #E38F66;
+    left: 150px;
+    top: 80px;
   }
   [c] {
-    transform: translate(-127q, 138q);
+    top: 34px;
+    background: #AA445F;
+    border-color: #E38F66;
   }
   [d] {
-    transform: translate(191q, 32q);
+    left: 250px;
+    top: 180px
+  }
+  [e] {
+    top: 134px
   }
 </style>
+
+<!-- minified (352 char)
+ 
+<p a><p o e><p a b><p o b c><p a d><p o e d><style>*{background:#62306d;position:fixed}[a]{background:#f7ec7d;width:100;height:250;left:50;top:200}[o]{width:60;height:60;border-radius:50%;border:solid 22q #aa445f;left:100;background:#e38f66;left:50}[b]{left:150;top:80}[c]{top:34;background:#aa445f;border-color:#e38f66}[d]{left:250;top:180}[e]{top:134
+
+-->
