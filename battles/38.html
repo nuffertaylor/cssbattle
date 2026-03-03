@@ -1,36 +1,42 @@
-<div class="frame">
-  <div class=r>
-    <div class="a z"></div>
-    <div class="b y">
-      <div class="c x"></div>
+<div a t>
+  <div a l>
+    <div b t>
+      <div b c l>
+        <div></div>
+      </div>
     </div>
   </div>
-  <div class="r y z">
-    <div class="e x"></div>
-  </div>
-  <style>
-  .frame{background:#293462}
-    .r{
-      display:flex;
-      margin:-8px -8px 0;
-      height:200px
-    }
-    .a{background:#FFF1C1}
-    .b{width:100px}
-    .c{height:150px}
-    .e{
-      width:150px;
-      background:#FE5F55;
-      margin-top:8px
-    }
-    .z {width:200px}
-    .y{background:#A64942}
-    .x{background:#FE5F55}
-  </style>
-  </div>
-  
-  <!-- minified
-  
-  <div class=r><div class="a z"></div><div class="y b"><div class="x c"></div></div></div><div class="r y z"><div class="x e"></div></div><style>*{background:#293462}.r{display:flex;margin:-8px -8px 0;height:200}.a{background:#fff1c1}.b{width:100}.c{height:150}.e{width:150;background:#fe5f55;margin-top:8}.z{width:200}.y{background:#a64942}.x{background:#fe5f55
-  
-  -->
+</div>
+<style>
+  *{background:#293462}
+  div {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 200px;
+    background: #FFF1C1;
+  }
+  [a] {
+    background: #A64942;
+  }
+  [b] {
+    background: #FE5F55;
+    left: -50px;
+  }
+  [c] {
+    top: -50px;
+  }
+  [t] {
+    top: 100px;
+  }
+  [l] {
+    left: 100px;
+  }
+</style>
+
+<!-- minified (234 char)
+ 
+<div a t><div a l><div b t><div b c l><div><style>*{background:#293462}div{position:fixed;left:0;top:0;width:200;height:200;background:#fff1c1}[a]{background:#a64942}[b]{background:#fe5f55;left:-50}[c]{top:-50}[t]{top:100}[l]{left:100
+
+-->
