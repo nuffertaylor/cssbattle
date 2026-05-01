@@ -1,43 +1,56 @@
-<div class="frame">
-  <div class="a l r"></div>
-  <div class="a l t"></div>
-  <div class="a l b w n"></div>
-  <div class="a l b w s"></div>
-  <div class="a l b e n"></div>
-  <div class="a l b e s"></div>
-  <style>
-    .frame{background:#90D3A6}
-    .a{position:absolute}
-    .l{
-      height:20px;
-      background:#024817;
-      border-radius:20px;
-    }
-    .r{
-      top:220px;
-      left:100px;
-      width:200px;
-    }
-    .t{
-      transform:rotate(90deg);
-      top:137px;
-      width:174px;
-      left:113px;
-    }
-    .b {
-      width:70px;
-    }
-    .w{
-      transform:rotate(30deg);
-      left:143px;
-    }
-    .e{
-      transform:rotate(-30deg);
-      left:187px
-    }
-    .n{
-      top:107px;
-    }
-    .s{top:157px}
-  </style>
+<div a>
+  <div b>
+    <div l>
+      <div c>
+        <div d>
+          <div e></div>
+        </div>
+      </div>
+    </div>
   </div>
+</div>
+<style>
+  *{background:#90D3A6}
+  div {
+    width: 20px;
+    height: 70px;
+    background: #024817;
+    position: fixed;
+    border-radius: 10q;
+  }
+  [a] {
+    width: 200px;
+    height: 20px;
+    left: 100px;
+    top: 220px;
+  }
+  [b] {
+    height: 180px;
+    left: 190px;
+    top: 60px;
+  }
+  [l] {
+    rotate: 60deg;
+    top: 83px;
+    left: 211px;
+  }
+  [c] {
+    top: 24px;
+    left: 43px;
+  }
+  [d] {
+    rotate: 60deg;
+    left: 22px;
+    top: 62px;
+  }
+  [e] {
+    top: 25px;
+    left: -44px;
+  }
+</style>
+
+<!-- minified (320 char)
+ 
+<div a><div b><div l><div c><div d><div e><style>*{background:#90d3a6}div{width:20;height:70;background:#024817;position:fixed;border-radius:10q}[a]{width:200;height:20;left:100;top:220}[b]{height:180;left:190;top:60}[l]{rotate:60deg;top:83;left:211}[c]{top:24;left:43}[d]{rotate:60deg;left:22;top:62}[e]{top:25;left:-44
+
+-->
