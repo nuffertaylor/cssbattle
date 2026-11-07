@@ -1,0 +1,51 @@
+<div a>
+  <div>
+    <div b>
+      <div c d>
+        <div c></div>
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+  *{background:#469E6C}
+  div {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background: #000;
+    left: 120px;
+  }
+  [a] {
+    left: 110px;
+    top: 105px
+  }
+  [b] {
+    background: #F2F1E0;
+    top: 20px;
+    left: -180px;
+    height: 50px;
+    width: 300px;
+  }
+  [c] {
+    height: 60px;
+    left: 240px
+  }
+  [d] {
+    top: 50px;
+    left: 0;
+  }
+  [c]::after {
+  content:"";
+  float:left;
+  margin:50 20;
+  padding:5 20;
+  background:#000
+}
+</style>
+
+<!-- minified (325 char)
+
+<div a><div><div b><div c d><div c><style>*{background:#469e6c}div{width:20;height:20;position:absolute;background:#000;left:120}[a]{left:110;top:105}[b]{background:#f2f1e0;top:20;left:-180;height:50;width:300}[c]{height:60;left:240}[d]{top:50;left:0}[c]::after{content:"";float:left;margin:50 20;padding:5 20;background:#000
+
+-->
